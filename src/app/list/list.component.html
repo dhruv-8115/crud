@@ -1,0 +1,22 @@
+<div>
+    <table id="customers">
+        <tr>
+            <td>Name</td>
+            <td>Email</td>
+            <td>Password</td>
+            <td>Gender</td>
+            <td>Number</td>
+            <td><button routerLink="/signup" class="btn">add</button></td>
+        </tr>
+        <tr *ngFor="let data of user">
+            <td>{{data.name}}</td>
+            <td>{{data.email}}</td>
+            <td>{{data.password}}</td>
+            <td>{{data.gender}}</td>
+            <td>{{data.phone}}</td>
+            <td><button (click)="edit(data,data.id)" class="btn" style="margin-right:10px">edit</button>
+                <button (click)="delete(data.id)" class="btn">delete</button>
+            </td>
+        </tr>
+    </table>
+</div>

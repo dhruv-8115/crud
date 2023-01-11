@@ -1,0 +1,60 @@
+{
+  "user": [
+    {
+      "name": "test",
+      "email": "test@test.com",
+      "password": "TEST",
+      "phone": 1234567890,
+      "gender": "male",
+      "id": 1
+    },
+    {
+      "name": null,
+      "email": "",
+      "password": "",
+      "phone": "",
+      "gender": "",
+      "id": 2
+    },
+    {
+      "name": null,
+      "email": "",
+      "password": "",
+      "phone": "",
+      "gender": "",
+      "id": 3
+    },
+    {
+      "name": null,
+      "email": "",
+      "password": "",
+      "phone": "",
+      "gender": "",
+      "id": 4
+    },
+    {
+      "name": null,
+      "email": "",
+      "password": "",
+      "phone": "",
+      "gender": "",
+      "id": 5
+    },
+    {
+      "name": null,
+      "email": "",
+      "password": "",
+      "phone": "",
+      "gender": "",
+      "id": 6
+    },
+    {
+      "name": "test",
+      "email": "test@test.com",
+      "password": "test",
+      "phone": 1234567890,
+      "gender": "male",
+      "id": 7
+    }
+  ]
+}
